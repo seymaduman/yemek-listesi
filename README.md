@@ -1,16 +1,14 @@
-# yemeklistesi
+# Akşam Yemeğine Ne Pişirsem?
 
-A new Flutter project.
+Bu uygulama, kullanıcıların farklı yemek tariflerini keşfetmelerini ve detaylarını görmelerini sağlar. Flutter kullanılarak geliştirilmiştir.
 
-## Getting Started
+## Özellikler
 
-This project is a starting point for a Flutter application.
+- Ana ekranda farklı yemek tarifleri listelenir.
+- Her tarife tıklayarak tarifin detaylarına ulaşabilirsiniz.
+- Tarif detaylarında malzemeler ve yapım aşamaları gösterilir.
+## Dosya Yapısı
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+- **main.dart:** Uygulamanın giriş noktası. Tariflerin listelendiği ve detaylarının gösterildiği ana yapıyı içerir.
+- **tarifdetay.dart:** Belirli bir tarifin detaylarını gösteren ekran.
+- **class.dart:** Tarif sınıfını tanımlar.
